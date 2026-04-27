@@ -1,0 +1,15 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI',sans-serif; }
+body { display:flex; flex-direction:column; height:100vh; }
+#header { background:#1A4F8A; color:white; padding:10px 20px; display:flex; align-items:center; gap:15px; height:55px; }
+#header h1 { font-size:1.3rem; white-space:nowrap; }
+#header span { font-size:0.85rem; opacity:0.85; }
+#map { flex:1; }
+#sidebar { position:absolute; top:65px; left:15px; z-index:1000; width:240px; display:flex; flex-direction:column; gap:8px; }
+.panel { background:white; border-radius:8px; padding:12px; box-shadow:0 2px 8px rgba(0,0,0,.15); }
+.panel h3 { font-size:0.85rem; color:#1A4F8A; margin-bottom:8px; }
+.btn-group { display:flex; gap:5px; }
+.btn { flex:1; padding:6px 0; border:1.5px solid #1A4F8A; border-radius:5px; background:white; color:#1A4F8A; cursor:pointer; font-size:0.82rem; }
+.btn.active { background:#1A4F8A; color:white; }
+#stat-content { font-size:0.82rem; color:#333; line-height:1.7; }
+.leg { display:flex; align-items:center; gap:8px; font-size:0.8rem; margin:3px 0; }
+.leg span { display:inline-block; width:16px; height:16px; border-radius:3px; border:1px solid #ccc; }
